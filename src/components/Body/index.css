@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.bodycontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+  height: 100%;
+}
+.leftcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #e2e8f0;
+  margin-right: 5px;
+  height: 100%;
+  padding: 30px;
+}
+.leftbarhead {
+  font-size: 15px;
+  color: #64748b;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-left: 0px;
+}
+.leftbartext {
+  font-size: 10px;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+.contentcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f5f9;
+  margin-right: 5px;
+
+  padding: 40px;
+}
+.contenthead {
+  font-size: 15px;
+  color: #64748b;
+}
+.contenttext {
+  font-size: 10px;
+  color: #64748b;
+}
+.rightcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #e2e8f0;
+  padding: 30px;
+}
+.righthead {
+  font-size: 15px;
+  color: #64748b;
+}
+.ad {
+  height: 100px;
+  width: 100px;
+  font-size: 10px;
+  color: #64748b;
+  border: 1px solid #64748b;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

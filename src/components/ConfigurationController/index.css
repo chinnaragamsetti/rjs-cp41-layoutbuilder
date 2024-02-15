@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.configcontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-left: 40px;
+  align-items: flex-start;
+  background-color: #475569;
+}
+.confighead {
+  font-size: 20px;
+  color: #ffffff;
+}
+.inputlabelcontainer {
+  display: flex;
+}
+.bartext {
+  font-size: 10px;
+  color: #ffffff;
+  padding-left: 10px;
+  cursor: pointer;
+}

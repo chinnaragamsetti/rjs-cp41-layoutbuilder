@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.headercontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd5e1;
+  margin-bottom: 5px;
+}
+.headerhead {
+  font-size: 20px;
+  color: #64748b;
+}
